@@ -1,0 +1,13 @@
+{
+  "extends": "tsconfig.json file",
+  "include": ["intergration/**/*/.ts", "support/**/*.ts", "plugins/**/*.ts"],
+  "files": ["support/commands.d.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "types": ["cypres", "node", "@testing-librar/cypress", "cypress/grep"]
+  }
+}

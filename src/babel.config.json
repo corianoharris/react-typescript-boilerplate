@@ -1,0 +1,13 @@
+
+
+{
+  "presets": [
+      "@babel/present-env",
+      "@babel/preset-typescript"
+  ],
+  "sourceType": "unambigous",
+  "plugins": [
+      "@babel/plugin-proposal-class-properties",
+      "@babel/proposal-optional-chaining"
+  ]
+}
